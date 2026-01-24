@@ -22,7 +22,7 @@ defmodule Toolbox.OriginLog do
       require Logger
 
       defp log(iolist, level) do
-        message = OriginLog.normalize_iolist(iolist)
+        message = Toolbox.OriginLog.normalize_iolist(iolist)
 
         Logger.log(level, [unquote(generate_prefix(__CALLER__.module)), message])
       end
