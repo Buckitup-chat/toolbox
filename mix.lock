@@ -1,0 +1,3 @@
+%{
+  "graceful_genserver": {:hex, :graceful_genserver, "0.1.6", "8fb21dfe6826fd254d095c5550717b56f115e713c318518959868afc32cb29cf", [:mix], [], "hexpm", "285e08d5bb9a40ec2e82e24a40effe61213559b467b281e1ae6bb34a3c73d267"},
+}
